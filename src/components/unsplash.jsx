@@ -15,11 +15,6 @@ class Unsplash extends Component {
     this.setState({ value: event.target.value });
   };
 
-  // handleSubmit = (event) => {
-  //   alert("Le nom a été soumis : " + this.state.value);
-  //   event.preventDefault();
-  // };
-
   render() {
     return (
       <div>
